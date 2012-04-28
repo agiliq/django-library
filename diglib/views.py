@@ -10,6 +10,7 @@ from django.contrib.auth import authenticate
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import logout, login
 from django.conf import settings
+from django.shortcuts import render
 
 def index(request):
-    return HttpResponse("Hello")
+    return render(request, 'index.html')
