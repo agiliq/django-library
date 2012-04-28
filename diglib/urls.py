@@ -1,6 +1,6 @@
 from django.conf.urls.defaults import patterns, include, url
 
-urlpatterns = patterns('diglib.views',
-    url(r'^$', 'index', name='index')
+urlpatterns = patterns('diglib.views', 
+                       url(r'^$', 'index', name='index'),
+                       url(r'^$', 'status', name='status'))
 
-   )

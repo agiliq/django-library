@@ -6,20 +6,16 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib import admin
 admin.autodiscover()
 
+urlpatterns = patterns('',
+    (r'^admin/', include(admin.site.urls)),
+    (r'^$', include('agibrary.diglib.urls')),                   
+)
 
-
-urlpatterns = patterns('', (
+urlpatterns += patterns('', (
     r'^static/(?P<path>.*)$',
     'django.views.static.serve',
     {'document_root': settings.STATIC_ROOT}
 ))
-
-
-urlpatterns += patterns('',
-     # Uncomment the next line to enable the admin:
-    (r'^admin/', include(admin.site.urls)),
-    (r'^$', include('agibrary.diglib.urls')),                   
-)
 
 
 

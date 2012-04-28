@@ -122,6 +122,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'diglib',
     'south',
+    'tagging',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )

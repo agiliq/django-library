@@ -1,4 +1,3 @@
-# Create your views here.
 from django.http import HttpResponse, Http404, HttpResponseRedirect
 from django.core.exceptions import ObjectDoesNotExist
 from django.shortcuts import render_to_response, redirect
@@ -12,5 +11,14 @@ from django.contrib.auth import logout, login
 from django.conf import settings
 from django.shortcuts import render
 
+from diglib.models import Books, Transaction
+
+
 def index(request):
-    return render(request, 'index.html')
+    books = Books.objects.all()
+    return render(request, 'index.html', {'books': books})
+
+
+def status(request, book_id):
+    tr = Transaction.objects.filter(book__id=book_id)
+    return render(request, 'status.html', {'status_data': tr})
