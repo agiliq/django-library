@@ -8,7 +8,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
-    (r'^$', include('agibrary.diglib.urls')),                   
+    (r'^', include('agibrary.diglib.urls')),                   
 )
 
 urlpatterns += patterns('', (

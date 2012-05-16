@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from tagging.fields import TagField
 from tagging.models import Tag
-
+from django.core.urlresolvers import reverse
 
 class Publisher(models.Model):
 
@@ -10,6 +10,7 @@ class Publisher(models.Model):
     basic_info = models.CharField(max_length=200)
     number_of_books_published = models.DecimalField(max_digits=10,
             decimal_places=0, default=1)
+
 
     def __unicode__(self):
         return self.name
@@ -31,9 +32,9 @@ class Books(models.Model):
     title = models.CharField(max_length=200)
     number_of_pages = models.DecimalField(max_digits=10,
             decimal_places=0)
-    isbn_number_10 = models.DecimalField(max_digits=9, 
+    isbn_number_10 = models.DecimalField(max_digits=15, 
                                    decimal_places=0, null=True, blank=True)
-    isbn_number_13 = models.DecimalField(max_digits=9, 
+    isbn_number_13 = models.DecimalField(max_digits=15, 
                                    decimal_places=0, null=True, blank=True)
     description = models.TextField()
     author = models.ManyToManyField(Author)
@@ -55,6 +56,9 @@ class Books(models.Model):
 
     def __unicode__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return reverse ("detail", {'var_name':"book", 'var_id':self.id})
 
 
 class Transaction(models.Model):
