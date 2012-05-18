@@ -40,7 +40,7 @@ def book_request(request, var):
         form = BookRequestForm(data=request.POST or None)
         if form.is_valid():
             form.save()
-            return redirect('/reques/detail/')
+            return redirect('/request/detail/')
         return render(request, 'request.html', {'form': form})
 
 

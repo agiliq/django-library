@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 {% if form %}
-<form method="post" action="">
+<form method="post" action="/request/create/">
   {% csrf_token %}
   <table>
     {% for field in form %}
@@ -40,5 +40,6 @@
 </tr>
 {% endfor %}
 </table>
+<a class="btn btn-success" href="/request/create/">Make a new Request!!</a> &nbsp;
 {% endif %}
 {% endblock %}
