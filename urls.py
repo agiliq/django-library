@@ -8,14 +8,16 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
-    (r'^', include('agibrary.diglib.urls')),                   
+    (r'', include('agibrary.diglib.urls')),                   
 )
+urlpatterns += staticfiles_urlpatterns()
 
+'''
 urlpatterns += patterns('', (
     r'^static/(?P<path>.*)$',
     'django.views.static.serve',
     {'document_root': settings.STATIC_ROOT}
 ))
-
+'''
 
 

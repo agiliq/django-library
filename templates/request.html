@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+{% if form %}
+<form method="post" action="">
+  {% csrf_token %}
+  <table>
+    {% for field in form %}
+    <div class="fieldWrapper">
+      {{ field.errors }}
+      <p>{{ field.label_tag }} {{ field }}</p>
+    </div>
+    {% endfor %}
+  </table>
+  <input type="submit" value="Submit Form"/>
+</form>
+{% endif %}
+
+{% if reqs %}
+<table class="table">
+<thead>
+<tr>
+<th>S. No.</th>
+<th>Book Title</th>
+<th>Author</th>
+<th>Date</th>
+<th>User</th>
+<th>Status</th>
+</tr>
+</thead>
+{% for req in reqs %}
+<tr>
+<td> {{ req.id }} </td>
+
+<td> <a href="{{ req.url }}"> {{ req.book_title }} </a> </td>
+<td> {{ req.author }} </td>
+<td> {{ req.date_requested }} </td>
+<td> {{ req.usr }} </td>
+{% url edit_request  req.id as edit_url %}
+<td> {{ req.status }}  <a href="{{ edit_url }}">edit</a></td>
+</tr>
+{% endfor %}
+</table>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr> 
+      <td>User Name </td>
+      <td> Book </td>
+      <td> Date Issued </td>
+      <td> Date Returned </td>
+    </tr> 
+  </thead>
+  {% for tr in trans %}
+  <tr>
+    <td> {{ tr.usr }} </td>
+    <td> {{ tr.book }} </td>
+    <td> {{ tr.date_issued }} </td>
+    <td> {{ tr.date_returned }} </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock content %}

@@ -1,0 +1,1074 @@
+[
+    {
+        "pk": 1, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": false, 
+            "isbn_number_13": "9780735636972", 
+            "isbn_number_10": "735636974", 
+            "description": "Widely considered one of the best practical guides to programming, Steve McConnell's original CODE COMPLETE has been helping developers write better software for more than a decade. Now this classic book has been fully updated and revised with leading-edge practicesand hundreds of new code samplesillustrating the art and science of software construction. Capturing the body of knowledge available from research, academia, and everyday commercial practice, McConnell synthesizes the most effective techniques and must-know principles into clear, pragmatic guidance. No matter what your experience.\r\n", 
+            "publisher": 1, 
+            "number_of_pages": "0", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks1.books.google.com/books?id=3JfE7TGUwvgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                1
+            ], 
+            "read_by": [
+                4
+            ], 
+            "title": "Code Complete", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks1.books.google.com/books?id=3JfE7TGUwvgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780596517748", 
+            "isbn_number_10": "596517742", 
+            "description": "Describes the reliable features of JavaScript, covering such topics as syntax, objects, functions, arrays, regular expressions, inheritance, and methods.", 
+            "publisher": 2, 
+            "number_of_pages": "153", 
+            "number_of_upvotes": "11", 
+            "small_thumbnail": "http://bks8.books.google.com/books?id=PXa2bby0oQ0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                6
+            ], 
+            "read_by": [
+                4
+            ], 
+            "title": "JavaScript The Good Parts", 
+            "number_of_downvotes": "5", 
+            "thumbnail": "http://bks8.books.google.com/books?id=PXa2bby0oQ0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780596006624", 
+            "isbn_number_10": "596006624", 
+            "description": "The author examines issues such as the rightness of web-based applications, the programming language renaissance, spam filtering, the Open Source Movement, Internet startups and more. He also tells important stories about the kinds of people behind technical innovations, revealing their character and their craft.", 
+            "publisher": 3, 
+            "number_of_pages": "258", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks6.books.google.com/books?id=IezOirt2n-gC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                39
+            ], 
+            "read_by": [], 
+            "title": "Hackers & painters big ideas from the computer age", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks6.books.google.com/books?id=IezOirt2n-gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780262062183", 
+            "isbn_number_10": "262062186", 
+            "description": "This introduction to programming places computer science in the core of a liberal arts education. Unlike other introductory books, it focuses on the program design process.", 
+            "publisher": 3, 
+            "number_of_pages": "693", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks8.books.google.com/books?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                8
+            ], 
+            "read_by": [], 
+            "title": "How to Design Programs An Introduction to Programming and Computing", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks8.books.google.com/books?id=Eg1Tu9Ds8ugC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9788131734803", 
+            "isbn_number_10": "8131734803", 
+            "description": "A guide to web UI design. ", 
+            "publisher": 21, 
+            "number_of_pages": "198", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks7.books.google.com/books?id=HfDxMv484koC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                9
+            ], 
+            "read_by": [], 
+            "title": "Don't Make Me Think: A Common Sense Approach to Web Usability", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks7.books.google.com/books?id=HfDxMv484koC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780262011532", 
+            "isbn_number_10": "262011530", 
+            "description": "Structure and Interpretation of Computer Programs has had a dramatic impact on computer science curricula over the past decade. This long-awaited revision contains changes throughout the text.", 
+            "publisher": 3, 
+            "number_of_pages": "657", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks2.books.google.com/books?id=ga08_TnGBzAC&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                3, 
+                11, 
+                12
+            ], 
+            "read_by": [], 
+            "title": "Structure and interpretation of computer programs", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks2.books.google.com/books?id=ga08_TnGBzAC&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9781934356869", 
+            "isbn_number_10": "1934356867", 
+            "description": "The second edition of \"Programming Clojure\" is the first book to cover the new features in Clojure 1.3. It covers new concepts like Protocols and Datatypes, as well as Clojure's changes to the numerics system. In addition, this book includes coverage of ClojureScript, a new platform for the Clojure language that rests on top of JavaScript.", 
+            "publisher": 9, 
+            "number_of_pages": "250", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks8.books.google.com/books?id=2Zo5AwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                13, 
+                14
+            ], 
+            "read_by": [], 
+            "title": "Programming Clojure", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks8.books.google.com/books?id=2Zo5AwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780201657883", 
+            "isbn_number_10": "201657880", 
+            "description": "Offering advice for programmers at entry level, each chapter in this work discusses problems the programmer might face on any day, and suggests methods to get around them.\r\n", 
+            "publisher": 10, 
+            "number_of_pages": "239", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks7.books.google.com/books?id=kse_7qbWbjsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api ", 
+            "author": [
+                15
+            ], 
+            "read_by": [], 
+            "title": "Programming Pearls", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks7.books.google.com/books?id=kse_7qbWbjsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api ", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780596155896", 
+            "isbn_number_10": "596155891", 
+            "description": "This is the only guide to CouchDB, an innovative, relatively simple, and highly praised database for handling routine document-based information. Apache CouchDB is a new document-oriented database that offers users an easier alternative to complex relational databases. Written by three of the core developers of CouchDB, this book provides web developers and other users with a step-by-step guide to the basics of storage and manipulation for document-based information such as contacts, invoices, and receipts.\r\n", 
+            "publisher": 11, 
+            "number_of_pages": "272", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks4.books.google.com/books?id=G4N-DPk9R5sC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                16, 
+                17, 
+                18
+            ], 
+            "read_by": [], 
+            "title": "CouchDB The Definitive Guide", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks4.books.google.com/books?id=G4N-DPk9R5sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780470540718", 
+            "isbn_number_10": "470540710", 
+            "description": "Provides information on using XMPP to build applications or add new features to current applications, covering such topics as the debugging console, the identica client, service discovery, event handling, and plugins.", 
+            "publisher": 12, 
+            "number_of_pages": "480", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks0.books.google.com/books?id=Bk1aPgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                4
+            ], 
+            "read_by": [], 
+            "title": "Professional XMPP Programming with JavaScript and JQuery", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks0.books.google.com/books?id=Bk1aPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780596003302", 
+            "isbn_number_10": "596003307", 
+            "description": "With the growing popularity of Linux and the advent of Darwin, Unix has metamorphosed into something new and exciting. No longer perceived as a difficult operating system, more and more users are discovering the advantages of Unix for the first time. But whether you are a newcomer or a Unix power user, youll find yourself thumbing through the goldmine of information in the new edition of Unix Power Tools to add to your store of knowledge. Want to try something new? Check this book first, and yore sure to find a tip or trick that will prevent you from learning things the hard way. The latest edition of this best-selling favorite is loaded with advice about almost every aspect of Unix, covering all the new technologies that users need to know. In addition to vital information on Linux, Darwin, and BSD, Unix Power Tools 3rd Edition now offers more coverage of bash, zsh, and other new shells, along with discussions about modern utilities and applications. Several sections focus on security and Internet access. And there is a new chapter on access to Unix from Windows, addressing the heterogeneous nature of systems today. Youll also find expanded coverage of software installation and packaging, as well as basic information on Perl and Python. Unix Power Tools 3rd Edition is a browser's book...like a magazine that you don't read from start to finish, but leaf through repeatedly until you realize that yove read it all. Bursting with cross-references, interesting sidebars explore syntax or point out other directions for exploration, including relevant technical details that might not be immediately apparent. The book includes articles abstracted from other OReilly books, new information that highlights program tricks and gotchas, tips posted to the Net over the years, and other accumulated wisdom. Affectionately referred to by readers as the Unix book, UNIX Power Tools provides access to information every Unix user is going to need to know. It will help you think creatively about UNIX, and will help you get to the point where you can analyze your own problems. Your own solutions won't be far behind.", 
+            "publisher": 5, 
+            "number_of_pages": "1116", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks7.books.google.com/books?id=tDDb5zRoONwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                20, 
+                21
+            ], 
+            "read_by": [], 
+            "title": "Unix Power Tools", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks7.books.google.com/books?id=tDDb5zRoONwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api ", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9781934356029", 
+            "isbn_number_10": "1934356026", 
+            "description": "It's not a one-browser web anymore. You need to reach audiences that use cell phones, PDAs, game consoles, or other alternative browsers, as well as users with disabilities. Legal requirements for assistive technologies as well as a wide array of new browsing experiences means you need to concentrate on semantics, alternate access paths, and progressive enhancement. Give your audience the power to interact with your content on their own terms. It's the right thing to do, and with a $100 billion a year market for accessible content, new laws and new technologies, you can't afford to ignore accessibility. With this book, yoll learn basic principles and techniques for developing accessible HTML, audio, video, and multimedia content. In addition, you will understand how to apply the principles you learn in this book to new technologies when they emerge. Youll learn how to: Use best practices of accessibility to develop accessible web content Build testing into projects to improve results and reduce costs Create high quality alternative representations for your audience Add accessibility features to external media like PDF and Flash Negotiate the terrain of accessibility standards Apply principles of accessiblity to new technologies as they emerge\r\n", 
+            "publisher": 9, 
+            "number_of_pages": "318", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks5.books.google.com/books?id=EmajGAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                22
+            ], 
+            "read_by": [], 
+            "title": "Design accessible web sites 36 keys to creating content for all audiences and platforms", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks5.books.google.com/books?id=EmajGAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9781934356685", 
+            "isbn_number_10": "1934356689", 
+            "description": "Presents information on using HTML and CSS to create Web pages, covering such topics as improving user interfaces, embedding audio and video, working with client-side data, and using APIs.", 
+            "publisher": 9, 
+            "number_of_pages": "280", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks5.books.google.com/books?id=BVTLbwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                23
+            ], 
+            "read_by": [], 
+            "title": "HTML5 and CSS3 Develop with Tomorrow's Standards Today ", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks5.books.google.com/books?id=BVTLbwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9781411601727", 
+            "isbn_number_10": "1411601726", 
+            "description": "Steve Blank's course text from Berkeley's Haas Business School and Stanford University, is the essential how to book for anyone bringing a product to market, writing a business plan, marketing plan or sales plan. Step-by-step strategy of how to successfully organize sales, marketing and business development for a new product or company. The book offers insight into what makes some startups successful and leaves others selling off their furniture. Packed with concrete examples, the book will leave you with new skills to organize sales, marketing and your business for success.\r\n", 
+            "publisher": 21, 
+            "number_of_pages": "1", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks6.books.google.com/books?id=oLL2pjn2RV0C&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                24
+            ], 
+            "read_by": [], 
+            "title": "The Four Steps to the Epiphany Successful Strategies for Products that Win ", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks6.books.google.com/books?id=oLL2pjn2RV0C&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780743204743", 
+            "isbn_number_10": "743204743", 
+            "description": "The coauthor of the bestselling business novels Zapp! and The Goal uses an entertaining parable of inventing and selling the wheel to convey key insights about sales and marketing--based on pioneering research by marketing guru Howard Stevens.", 
+            "publisher": 18, 
+            "number_of_pages": "256", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks2.books.google.com/books?id=ztUWMY2II-EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                25, 
+                26
+            ], 
+            "read_by": [], 
+            "title": "Selling the Wheel Choosing the Best Way to Sell For You, Your Company, and Your Customers ", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks2.books.google.com/books?id=ztUWMY2II-EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780192861986", 
+            "isbn_number_10": "192861980", 
+            "description": "For many decades, the proponents of `artificial intelligence have maintained that computers will soon be able to do everything that a human can do. In his bestselling work of popular science, Sir Roger Penrose takes us on a fascinating roller-coaster ride through the basic principles of physics, cosmology, mathematics, and philosophy to show that human thinking can never be emulated by a machine.", 
+            "publisher": 14, 
+            "number_of_pages": "602", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks5.books.google.com/books?id=0mVEBJ34v9EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                27, 
+                28
+            ], 
+            "read_by": [], 
+            "title": "The Emperor's New Mind Concerning Computers, Minds and the Laws of Physics", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks5.books.google.com/books?id=0mVEBJ34v9EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780552555593", 
+            "isbn_number_10": "552555592", 
+            "description": "Terry Pratchett\tFifteen-year-old Tiffany Aching, the witch of the Chalk, seeks her place amid a troublesome populace and tries to control the ill-behaved, six-inch-high Wee Free Men who follow her as she faces an ancient evil that agitates against witches.", 
+            "publisher": 15, 
+            "number_of_pages": "352", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks2.books.google.com/books?id=1fG6hvgJdXgC&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                31
+            ], 
+            "read_by": [], 
+            "title": "I Shall Wear Midnight", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks2.books.google.com/books?id=1fG6hvgJdXgC&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780552165334", 
+            "isbn_number_10": "552165336", 
+            "description": "Terry Pratchett\tFootball has come to the ancient city of Ankh-Morpork. And now the wizards of Unseen University must win a football match, without using magic, so they're in the mood for trying everything else. The prospect of the Big Match draws in a street urchin with a wonderful talent for kicking a tin can, a maker of jolly good pies, a dim but beautiful young woman, who might just turn out to be the greatest fashion model there has ever been, and the mysterious Mr Nutt (and no one knows anything much about Mr Nutt, not even Mr Nutt, which worries him, too). As the match approaches, four lives are entangled and changed forever. Because the thing about football - the important thing about football - is that it is not just about football. Here we go! Here we go! Here we go!", 
+            "publisher": 15, 
+            "number_of_pages": "544", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks9.books.google.com/books?id=AjzLwGQ0w3QC&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                31
+            ], 
+            "read_by": [], 
+            "title": "Unseen Academicals", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks9.books.google.com/books?id=AjzLwGQ0w3QC&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9789380658674", 
+            "isbn_number_10": "9380658672", 
+            "description": "Chanakya's Rants!!", 
+            "publisher": 16, 
+            "number_of_pages": "448", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks6.books.google.com/books?id=gNwqfJkXjVsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                32
+            ], 
+            "read_by": [], 
+            "title": "Chanakya's Chant", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks6.books.google.com/books?id=gNwqfJkXjVsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780446576222", 
+            "isbn_number_10": "446576220", 
+            "description": "In Delivering Happiness, Tony Hsieh - the hip, iconoclastic, and widely-admired CEO of Zappos, the online shoe retailer - - explains how he created a corporate culture with a commitment to service that aims to improve the lives of its employees, customers, vendors, and backers. Using anecdotes and stories from his own life experiences, and from other companies, Hsieh provides concrete ways that companies can achieve unprecedented success. He details many of the unique practices at Zappos, such as their philosophy of allocating marketing money into the customer experience, the importance of Zappos's Core Values (Deliver WOW through Service), and the reason why Zappos's number one priority is company culture and his belief that once you get the culture right, everything else - great customer service, long-term branding - will happen on its own. Finally, Delivering Happiness explains how Zappos employees actually apply the Core Values to improving their lives outside of work, proving that creating happiness and record results go hand-in-hand.", 
+            "publisher": 17, 
+            "number_of_pages": "272", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks9.books.google.com/books?id=vyFCcgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                33
+            ], 
+            "read_by": [], 
+            "title": "Delivering Happiness A Path to Profits, Passion, and Purpose", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks9.books.google.com/books?id=vyFCcgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780671671648", 
+            "isbn_number_10": "671671642", 
+            "description": "Discusses the prerequisites to starting a business and shares his own start-up strategies.", 
+            "publisher": 18, 
+            "number_of_pages": "251", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks3.books.google.com/books?id=-AiPYIqY9IIC&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                34
+            ], 
+            "read_by": [], 
+            "title": "Growing a business", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks3.books.google.com/books?id=-AiPYIqY9IIC&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780618127450", 
+            "isbn_number_10": "618127453", 
+            "description": "Exercise your imagination and set off sparks of genius. Explore the thinking tools of extraordinary people, from Albert Einstein and Jane Goodall to Amadeus Mozart and Virginia Woolf, and learn how you can practice the same imaginative skills to become your creative best. With engaging narratives and ample illustrations, Robert and Michele Root-Bernstein investigate cognitive tools as diverse as observing, imaging, recognizing patterns, modeling, playing, and more. SPARKS OF GENIUS is a clever, detailed and demanding fitness program for the creative mind (Kirkus Reviews) and a groundbreaking guidebook for anyone interested in imaginative thinking, lifelong learning, and transdisciplinary education.", 
+            "publisher": 19, 
+            "number_of_pages": "416", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks6.books.google.com/books?id=DARiLCJc0dEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                35, 
+                36
+            ], 
+            "read_by": [], 
+            "title": "Sparks of Genius The Thirteen Thinking Tools of the World's Most Creative People", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks6.books.google.com/books?id=DARiLCJc0dEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api\t618127453", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9780061345012", 
+            "isbn_number_10": "61345016", 
+            "description": "Twenty-six selections from six decades of consulting and advising companies and individuals introduce readers to the seminal ideas of one of the nation's renowned management gurus. Reissue.", 
+            "publisher": 20, 
+            "number_of_pages": "368", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks1.books.google.com/books?id=Av2DPwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api", 
+            "author": [
+                37
+            ], 
+            "read_by": [], 
+            "title": "The Essential Drucker The Best of Sixty Years of Peter Drucker's Essential Writings on Management", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks1.books.google.com/books?id=Av2DPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "diglib.books", 
+        "fields": {
+            "status": true, 
+            "isbn_number_13": "9781449303518", 
+            "isbn_number_10": "144930351", 
+            "description": "Provides information on creating Web applications with JavaScript, covering such topics as structure, frameworks, templating, and communicating with the server.", 
+            "publisher": 11, 
+            "number_of_pages": "280", 
+            "number_of_upvotes": "0", 
+            "small_thumbnail": "http://bks4.books.google.com/books?id=ymDsh5yOfpsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", 
+            "author": [
+                38
+            ], 
+            "read_by": [], 
+            "title": "JavaScript Web Applications", 
+            "number_of_downvotes": "0", 
+            "thumbnail": "http://bks4.books.google.com/books?id=ymDsh5yOfpsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api", 
+            "tags": ""
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Steve McConnel", 
+            "basic_info": "Writes very good books"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Harold Abelson", 
+            "basic_info": "nice"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Jack Moffitt", 
+            "basic_info": "Writes on XMPP"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Steve McConnell", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Douglas Crockford", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Paul Graham", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Matthias Felleisen", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Krug Steve", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Harold Abelson", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Gerald Jay Sussman", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Julie Sussman", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Stuart Halloway", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Aaron Bedra", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Jon Louis Bentley", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "J. Chris Anderson", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Jan Lehnardt", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Noah Slater", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Jack Moffitt", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Shelley Powers", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Jerry Peek", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Jeremy J. Sydik", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Brian P. Hogan", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Steven Blank", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Jeff Cox", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Howard Stevens", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Roger Penrose", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Martin Gardner", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Toby Segaran", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Jeff Hammerbacher", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Terry Pratchett", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Ashwin Sanghi", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Tony Hsieh", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Paul Hawken", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Robert Scott", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Root Bernstein", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Peter F. Drucker", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Alex MacCaw", 
+            "basic_info": "Nice"
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "diglib.author", 
+        "fields": {
+            "number_of_books_authored": "1", 
+            "name": "Paul Graham", 
+            "basic_info": "YC Guy!!"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "MicroSoft Press", 
+            "basic_info": "They promote their own technology"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Yahoo Press", 
+            "basic_info": "nice"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "MIT Press", 
+            "basic_info": "nice"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Wrox", 
+            "basic_info": "nice"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "O'Reilly Media, Inc.", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Yahoo Press", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "null", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "The MIT Press", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Pragmatic Bookshelf", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Addison-Wesley Professional", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Oreilly & Associates Incorporated", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Wrox", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Simon and Schuster", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Oxford University Press, USA", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Corgi Books", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "NBC India", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Business Plus", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Simon & Schuster", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Mariner Books", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Collins", 
+            "basic_info": "Please add the info!"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "diglib.publisher", 
+        "fields": {
+            "number_of_books_published": "1", 
+            "name": "Not Known", 
+            "basic_info": "not known"
+        }
+    }
+]
