@@ -32,6 +32,7 @@ $("#issue").live("click", function(e){
     }
     else{
       alert("Yep! the book is booked in your name.");
+      window.location.reload();
     }
   });
 });
@@ -45,6 +46,7 @@ $("#return").live("click", function(e){
     }
     else{
       alert("Thanks, for returning the book!");
+      window.location.reload();
     }
     
   });

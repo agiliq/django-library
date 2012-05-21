@@ -15,12 +15,37 @@ import datetime
 model_dict = {'book': Books, 'author': Author, 'publisher': Publisher}
 
 
+def detail(request, var_name=None, var_id=None):
+
+# displays the details of the book/author/publisher
+
+    model = model_dict.get(var_name, '')
+    obj = get_object_or_404(model, pk=var_id)
+    tr = None
+
+    if var_name == 'book':
+        try:
+            tr = \
+                Transaction.objects.filter(book__id=var_id).order_by(
+                '-date_issued')[0]
+        except IndexError, e:
+            pass
+    return render(request, 'detail.html', {'detail': var_name,
+                  var_name: obj, 'trans': tr})
+
+
 def about(request):
+
+# The about page
+
     return render(request, 'about.html', {})
 
 
 @login_required
 def edit_request(request, req_id):
+
+# Edit a request you/team made
+
     req_data = BookRequest.objects.get(id=req_id)
     form = BookRequestForm(data=request.POST or None, instance=req_data)
     if form.is_valid():
@@ -31,6 +56,8 @@ def edit_request(request, req_id):
 
 @login_required
 def book_request(request, var):
+
+# make a book request
 
     if var == 'detail':
         bookreqs = BookRequest.objects.all().order_by('-date_requested')
@@ -52,6 +79,9 @@ def aclogout(request):
 @login_required
 @csrf_exempt
 def funct(request, book_id, var):
+
+# handles issue, return, upvote and downvote
+
     book = Books.objects.get(id=book_id)
     if var == 'issue' and book.status == False:
         return HttpResponse('0')
@@ -100,6 +130,9 @@ def aclogin(request):
 
 
 def filter(request, var_name=None, var_id=None):
+
+# filters book by the author or publisher
+
     if var_name == 'author':
         obj = Books.objects.filter(author__id=var_id)
     else:
@@ -108,22 +141,16 @@ def filter(request, var_name=None, var_id=None):
 
 
 def libdetails(request):
+
+# displays the library transaction details
+
     tr = Transaction.objects.all().order_by('-date_issued')[:20]
     return render(request, 'trans.html', {'trans': tr})
 
 
 def index(request):
+
+# displays the list of available books
+
     books = Books.objects.all()
     return render(request, 'index.html', {'books': books})
-
-
-def detail(request, var_name=None, var_id=None):
-    model = model_dict.get(var_name, '')
-    obj = get_object_or_404(model, pk=var_id)
-    return render(request, 'detail.html', {'detail': var_name,
-                  var_name: obj})
-
-
-def status(request, book_id=None):
-    tr = Transaction.objects.filter(book__id=book_id)
-    return render(request, 'status.html', {'status_data': tr})
